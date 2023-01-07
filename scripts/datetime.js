@@ -1,7 +1,7 @@
 
 let d = new Date();
-let thisyear = d.getFullYear();
-document.getElementById("currentyear").textContent = thisyear;
+let year = d.getFullYear();
+document.getElementById("currentyear").textContent = year;
 
 let olastmodif = new Date(document.lastModified);
 
