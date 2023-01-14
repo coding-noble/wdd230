@@ -32,3 +32,9 @@ li {
 main p {
     font-style: italic;
 }
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+p, li, a {
+    font-family: 'Montserrat', sans-serif;
+}
