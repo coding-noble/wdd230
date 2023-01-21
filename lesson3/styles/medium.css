@@ -1,0 +1,27 @@
+@media (min-width: 609px) {
+
+    header {
+        display: block;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    img {
+        padding: 2%;
+    }
+
+    body {
+        padding: 1.5em;
+        font-size: 1.3em;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    img {
+        max-width: 30%;
+    }
+}
