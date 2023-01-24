@@ -1,0 +1,18 @@
+body {
+    background-color: #ebeded;
+    font-size: 2em;
+}
+
+hr {
+    height: 5px;
+    background-color: black;
+}
+
+div {
+    display: inline-flex;
+    background-color: #30acec;
+    border: 3px solid black;
+    padding: 100px;
+    font-weight: bold;
+    font-size: 3em;
+}
