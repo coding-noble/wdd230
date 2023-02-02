@@ -9,7 +9,7 @@ button.addEventListener("click", () => {
         let li = document.createElement("li");
         let remove = document.createElement("button");
         li.textContent = input.value;
-        remove.textContent = "X";
+        remove.textContent = "❌";
         li.append(remove);
         list.appendChild(li);
         remove.addEventListener("click", () => {
