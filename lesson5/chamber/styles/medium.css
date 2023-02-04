@@ -24,9 +24,13 @@
     }
 
     #spotlights {
-        display: flex;
         grid-column: 1/4;
         grid-row: 3;
+        flex-direction: row;
+    }
+
+    #spotlights div {
+        width: 85%;
     }
 
     #join {
@@ -35,26 +39,18 @@
         grid-row: 4;
     }
 
+    #join h2 {
+        margin: 0;
+    }
+
     #event {
         grid-column: 1/3;
         grid-row: 5;
     }
 
-    #wether {
+    #weather {
         grid-column: 3/4;
         grid-row: 5;
-    }
-
-    #hero,
-    #event,
-    #weather,
-    #join,
-    #news,
-    #spotlights {
-        margin: 1% auto;
-        width: 100%;
-        border: black solid 2px;
-        text-align: center;
     }
 
     footer {
@@ -108,7 +104,14 @@
     }
 
     hr {
-        width: 100%;
+        width: 75%;
+    }
+
+    button {
+        margin-top: 5%;
+        height: 25%;
+        font-size: 1.75em;
+
     }
 
 }
