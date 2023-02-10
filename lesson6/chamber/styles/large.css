@@ -19,8 +19,7 @@
     }
 
     .navigation a {
-        text-align: center;
-        padding: 10%;
+        padding: 5%;
     }
 
     .navigation li:first-child {
@@ -37,7 +36,6 @@
 
     .main-logo img {
         width: 175px;
-        padding: 20px 5px 5px;
     }
 
     .main-logo section {
