@@ -120,14 +120,17 @@ em {
     margin: auto auto;
 }
 
-p,
-h2 {
+p {
     padding: 3%;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
 }
 
 #hero {
     text-align: center;
-    padding-top: 10px;
     display: grid;
     grid-gap: 2%;
     grid-template-columns: repeat(3, 1fr);
@@ -171,16 +174,12 @@ button:hover {
 #spotlights,
 #join,
 #meeting_banner {
-    text-align: center;
     background-color: var(--accent2-color);
-    width: 95%;
-    margin: 2% auto;
 }
 
 #spotlights {
     display: flex;
     flex-direction: column;
-    margin-bottom: 3%;
 }
 
 #spotlights div {
@@ -188,8 +187,15 @@ button:hover {
     margin: 4% 4%;
 }
 
-main section img {
-    width: 35%;
+section {
+    margin: 3%;
+    height: auto;
+    text-align: center;
+    padding: 3%;
+}
+
+#hero {
+    margin: 0;
 }
 
 #join {
