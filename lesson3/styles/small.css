@@ -5,16 +5,6 @@
     --accent1-color: #A72608;
     --accent2-color: #BBC5AA;
 
-    --headline-color-on-white: #16302B;
-    --headline-color-on-color: #A72608;
-    --paragraph-color-on-white: black;
-    --paragraph-color-on-color: white;
-    --paragraph-background-color: #16302B;
-    --nav-link-color: #A72608;
-    --nav-background-color: #BBC5AA;
-    --nav-hover-link-color: #16302B;
-    --nav-hover-background-color: #E6EED6;
-
     /* My Fonts */
     --heading-font: Unbounded, Arial, sans-serif;
     --paragraph-font: Nunito, Garamond, serif;
@@ -43,19 +33,19 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
+    color: var(--secondary-color);
     font-weight: bold;
 }
 
 header {
     padding: 1em;
     text-align: center;
-    color: var(--paragraph-color-on-color);
-    background-color: var(--paragraph-background-color);
+    color: white;
+    background-color: var(--secondary-color);
 }
 
 header h1, header h2 {
-    color: var(--headline-color-on-color);
+    color: var(--accent1-color);
 }
 
 p,
@@ -106,12 +96,12 @@ hr {
 }
 
 p.colored {
-    background-color: var(--paragraph-background-color);
-    color: var(--paragraph-color-on-color);
+    background-color: var(--secondary-color);
+    color: white;
 }
 
 nav {
-    background-color: var(--nav-background-color);
+    background-color: var(--accent2-color);
     line-height: 2.75em;
     font-size: 1.5em;
     display: flex;
@@ -133,12 +123,12 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+    color: var(--accent1-color);
 }
 
 nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .sitemap {
