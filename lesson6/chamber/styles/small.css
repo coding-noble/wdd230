@@ -5,16 +5,6 @@
     --accent1-color: #A72608;
     --accent2-color: #BBC5AA;
 
-    --headline-color-on-white: #16302B;
-    --headline-color-on-color: #A72608;
-    --paragraph-color-on-white: black;
-    --paragraph-color-on-color: white;
-    --paragraph-background-color: #16302B;
-    --nav-link-color: #A72608;
-    --nav-background-color: #BBC5AA;
-    --nav-hover-link-color: #16302B;
-    --nav-hover-background-color: #E6EED6;
-
     /* My Fonts */
     --heading-font: Unbounded, Arial, sans-serif;
     --paragraph-font: Nunito, Garamond, serif;
@@ -99,7 +89,7 @@ em {
 
 .navigation li {
     display: none;
-    background-color: var(--paragraph-background-color);
+    background-color: var(--secondary-color);
 }
 
 .navigation a {
@@ -146,7 +136,7 @@ h2 {
 #hero h2 {
     text-shadow: 3px 2px 1px black;
     grid-area: 1/1/2/4;
-    color: var(--headline-color-on-color);
+    color: var(--accent1-color);
 }
 
 #hero button {
@@ -157,7 +147,7 @@ button {
     box-shadow: 3px 3px 10px black, -3px -3px 10px black;
     color: var(--accent2-color);
     margin: auto;
-    background-color: var(--paragraph-background-color);
+    background-color: var(--secondary-color);
     border-radius: 50px;
     height: 50%;
     width: 50%;
@@ -166,7 +156,7 @@ button {
 }
 
 button:hover {
-    color: var(--nav-hover-link-color);
+    color: var(--secondary-color);
     background-color: var(--accent2-color);
 }
 
@@ -194,7 +184,7 @@ button:hover {
 }
 
 #spotlights div {
-    box-shadow: 0 0 10px 5px var(--headline-color-on-white);
+    box-shadow: 0 0 10px 5px var(--secondary-color);
     margin: 4% 4%;
 }
 
@@ -253,7 +243,7 @@ hr {
 }
 
 footer a:hover {
-    color: var(--nav-link-color);
+    color: var(--accent1-color);
 }
 
 footer p a {
