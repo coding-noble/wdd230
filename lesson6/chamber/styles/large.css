@@ -72,6 +72,7 @@
         display: flex;
         grid-column: 5;
         grid-row: 1/4;
+        justify-content: space-around;
     }
 
     #spotlights div p {
