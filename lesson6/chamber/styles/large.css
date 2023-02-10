@@ -2,6 +2,7 @@
 
     .main-logo h1 {
         font-size: 2.5em;
+        text-align: left;
     }
 
     html {
@@ -30,12 +31,13 @@
         display: block;
     }
 
-    .social img {
-        width: 50px;
-    }
 
     .main-logo img {
         width: 175px;
+    }
+
+    .social img {
+        width: 50px;
     }
 
     .main-logo section {
@@ -105,11 +107,7 @@
 
     button {
         font-size: 1.25em;
-        width: 80%
+        width: 80%;
+        margin: 10%;
     }
-
-    #hero img {
-        height: 100%;
-    }
-
 }

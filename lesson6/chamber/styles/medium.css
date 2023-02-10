@@ -5,11 +5,6 @@
         margin: auto;
     }
 
-    .social {
-        margin-right: 5px;
-        margin-top: 4px;
-    }
-
     main {
         display: grid;
         gap: 1em;
@@ -120,11 +115,12 @@
     button {
         height: 25%;
         font-size: 1.75em;
+        width: 80%;
+        margin: 3%;
     }
 
-    #join button {
-        width: 80%;
-        margin: 3% 0;
+    #hero button {
+        margin: auto;
     }
 
     #meeting_banner {

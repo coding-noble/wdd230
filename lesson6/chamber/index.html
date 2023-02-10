@@ -24,23 +24,23 @@
 <header>
     <div class="main-logo">
         <a href="index.html">
-            <img src="images/logo.png" alt="Logo">
+            <img src="images/logo.webp" alt="Logo">
         </a>
         <section>
             <h1>Daniel Commerce</h1>
             <h2>Chamber of Commerce</h2>
         </section>
-    </div>
-    <div class="social">
-        <a href="https://facebook.com" target="_blank">
-            <img src="images/facebook.png" alt="fb icon">
-        </a>
-        <a href="https://twitter.com" target="_blank">
-            <img src="images/twitter.png" alt="twitter icon">
-        </a>
-        <a href="https://instagram.com" target="_blank">
-            <img src="images/instagram.png" alt="instagram icon">
-        </a>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
     </div>
     <div id="datebox"></div>
     <nav>
@@ -60,8 +60,18 @@
     <p>🤝🏼 Come join us for the chamber meet and greet <span id="meeting_day"></span> at 7:00 p.m.</p>
 </section>
 <main>
+
     <section id="hero">
-        <img id="hero_image" src="images/hero.png" alt="The Green River">
+        <picture>
+            <source media="(max-width: 700px)" srcset="images/wdd230-700.jpg">
+            <source media="(max-width: 1000px)" srcset="images/wdd230-1000.jpg">
+            <img id="hero_image" src="images/wdd230-org.jpg" alt="The Green River">
+        </picture> 
+        <!-- <picture>
+            <source media="(max-width: 700px)" srcset="images/hero-700.jpg">
+            <source media="(max-width: 1000px)" srcset="images/hero-1000.jpg">
+            <img id="hero_image" src="images/hero-org.jpg" alt="The Green River">
+        </picture> -->
         <h2>Welcome To The Daniel Chamber</h2>
         <button id="join_now">Join Now </button>
     </section>
@@ -119,7 +129,7 @@
     <section>
         <h6>Info</h6>
         <div>
-            <img src="images/logo.png" alt="Logo">
+            <img src="images/logo.webp" alt="Logo">
         </div>
         <ul>
             <li>
