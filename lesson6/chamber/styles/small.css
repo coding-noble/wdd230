@@ -136,6 +136,7 @@ p {
 
 h2 {
     font-size: 2em;
+    margin: 5% 0;
 }
 
 #hero {
@@ -188,6 +189,32 @@ picture {
 #join,
 #meeting_banner {
     background-color: var(--accent2-color);
+}
+
+#weather p {
+    text-align: left;
+}
+
+#weather div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#weather div img{
+    width: 100%;
+}
+
+#weather div picture {
+    width: 35%;
+}
+
+#weather div p {
+    font-size: 3em;
+}
+
+#weather-type {
+    font-size: 1.5em;
 }
 
 #spotlights {

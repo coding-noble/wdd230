@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Unbounded&display=swap" rel="stylesheet">
 
+    <script src="scripts/windchill.js" defer></script>
     <script src="scripts/datetime.js" defer></script>
     <script src="scripts/banner.js" defer></script>
     <script src="scripts/dates.js" defer></script>
@@ -66,7 +67,7 @@
             <source media="(max-width: 700px)" srcset="images/wdd230-700.jpg">
             <source media="(max-width: 1000px)" srcset="images/wdd230-1000.jpg">
             <img id="hero_image" src="images/wdd230-org.jpg" alt="The Green River">
-        </picture> 
+        </picture>
         <!-- <picture>
             <source media="(max-width: 700px)" srcset="images/hero-700.jpg">
             <source media="(max-width: 1000px)" srcset="images/hero-1000.jpg">
@@ -84,8 +85,15 @@
     </section>
     <section id="weather">
         <h2>Weather</h2>
-        <img src="images/weather.png" alt="NEEDS WEATHER WIDGET">
-        <p>Placeholder:<br><br> Needs Weather Widget</p>
+        <div>
+            <picture>
+                <img id="weather-icon" alt="Weather Icon">
+            </picture>
+            <p><span id="temprature"></span>°F</p>
+        </div>
+        <h3 id="weather-type"></h3>
+        <hr>
+        <p>Wind Speed: <span id="wind-speed"></span> mph<br>Wind Chill: <span id="wind-chill">N/A</span></p>
     </section>
     <section id="join">
         <button>Become A Member</button>
