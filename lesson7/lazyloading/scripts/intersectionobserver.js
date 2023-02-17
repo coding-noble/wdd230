@@ -6,6 +6,9 @@ function preloadImgage(image) {
         return;
     }
     image.src = src;
+    image.onload = () => {
+        image.removeAttribute("data-src");
+    };
 }
 
 const imgOptions = {
