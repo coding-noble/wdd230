@@ -10,8 +10,18 @@
     --paragraph-font: Nunito, Garamond, serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
 img {
     width: 50px;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+img[data-src] {
+    filter: blur(0.5em);
 }
 
 header {
@@ -19,7 +29,8 @@ header {
     background-color: var(--secondary-color);
 }
 
-header section, #hero {
+header section,
+#hero {
     padding: 0;
     margin: 0;
 }
@@ -201,7 +212,7 @@ picture {
     align-items: center;
 }
 
-#weather div img{
+#weather div img {
     width: 100%;
 }
 
@@ -299,4 +310,12 @@ ul {
 
 h6 {
     display: none;
+}
+
+#discover-info section img {
+    width: 90%;
+}
+
+#discover-info section {
+    background-color: var(--accent2-color);
 }
