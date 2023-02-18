@@ -114,4 +114,12 @@
         width: 80%;
         margin: 10%;
     }
+
+    #discover section h3 {
+        font-size: 3em;
+    }
+
+    .left-aligned picture {
+        grid-area: 2/2/3/3;
+    }
 }
