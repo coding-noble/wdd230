@@ -1,7 +1,5 @@
-const FACTOR = 86400000;
-
 const lastVisit = Number(window.localStorage.getItem("lastVisit"));
-const numOfDays = Math.ceil((Date.now() - lastVisit) / FACTOR);
+const numOfDays = Math.ceil((Date.now() - lastVisit) / 86400000);
 const numVisits = document.getElementById("last-visit");
 
 let numOfVisits = window.localStorage.getItem("visits");
