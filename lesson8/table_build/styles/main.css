@@ -1,0 +1,40 @@
+:root {
+    --back: rgb(231, 186, 82);
+    --back2: rgb(64, 170, 61);
+    --border: black;
+    --zebra: lightgray;
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid var(--border);
+    box-shadow: 0 0 10px black;
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: black;
+    font-size: 2em;
+}
+
+tr:first-child th {
+    background-color: var(--back);
+}
+
+th,
+td,
+p {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: var(--back2);
+    font-size: x-large;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--zebra);
+}
