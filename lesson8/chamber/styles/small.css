@@ -355,3 +355,7 @@ textarea {
 .hidden {
     display: none;
 }
+
+#member-benefits h3 {
+    margin: 3%;
+}

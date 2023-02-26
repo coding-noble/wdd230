@@ -122,4 +122,13 @@
     .left-aligned picture {
         grid-area: 2/2/3/3;
     }
+
+    #main-join-us {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #member-benefits h3 {
+        text-align: left;
+    }
 }
