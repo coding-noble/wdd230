@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discovering Daniel Wyoming</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/lastvisit.js" defer></script>
+    <script src="scripts/lazyload.js" defer></script>
+    <script src="scripts/datetime.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+</head>
+<header>
+    <div class="main-logo">
+        <a href="index.html">
+            <img src="images/logo.webp" alt="Logo">
+        </a>
+        <section>
+            <h1>Daniel Commerce</h1>
+            <h2>Chamber of Commerce</h2>
+        </section>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </div>
+    <div id="datebox"></div>
+    <nav>
+        <ul class="navigation">
+            <li><a id="menu"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="#">Content</a></li>
+        </ul>
+    </nav>
+</header>
+
+<h1>Join Us Form</h1>
+<main id="main-join-us">
+    <form method="get" action="thankyou.html">
+        <label>First Name:
+            <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+        </label>
+
+        <label>Last Name:
+            <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+        </label>
+
+        <label>Business Position Title:
+            <input type="text" id="business-position-title" name="business-position-title"
+                placeholder="Business Position Title" pattern="[a-zA-Z0-9\s\]{7,}">
+        </label>
+
+        <label>Email:
+            <input type="email" id="email" name="email" placeholder="example@example.com" required>
+        </label>
+
+        <label>Cell Phone:
+            <input type="tel" id="phone-number" name="phone-number" placeholder="Phone Number" required>
+        </label>
+
+        <label>Business Name/Title:
+            <input type="text" id="business-name" name="business-name" placeholder="Business Name" required>
+        </label>
+
+        <label>Membership Level:
+            <select name="membershipLevel">
+                <option value="NP">NP Membership</option>
+                <option value="Bronze">Bronze Membership</option>
+                <option value="Silver">Silver Membership</option>
+                <option value="Gold">Gold Membership</option>
+            </select>
+        </label>
+
+        <label>Business Description:
+            <textarea id="business-description" name="business-description"
+                placeholder="Simple discription of your business."></textarea>
+        </label>
+
+        <input type="hidden" id="date-time" name="date-time" value="CurrentDateTime">
+
+        <input type="submit" class="button" value="Submit">
+    </form>
+    <div id="member-benefits">
+        <h2>Membership Benefits:</h2>
+
+        <h3>Gold: 85$ Per Month</h3>
+        <ul>
+            <li>All benefits from bronze and silver membership levels.</li>
+            <li>Advertising on the Chamber Home Page.</li>
+            <li>Gold member council meetings.</li>
+        </ul>
+
+        <h3>Silver: 50$ Per Month</h3>
+        <ul>
+            <li>All benefits from bronze membership level.</li>
+            <li>One ad per month on Chamber Home Page.</li>
+            <li>10% discount on chamber services.</li>
+        </ul>
+
+        <h3>Bronze: 25$ Per Month</h3>
+        <ul>
+            <li>Access to our contact Network. </li>
+            <li>Business success mentor. </li>
+            <li>Business startup training. </li>
+        </ul>
+
+        <h3>Non-Profit: Free</h3>
+        <ul>
+            <li>All benefits from bronze membership level. </li>
+            <li>Two free ads on Chamber Home Page. </li>
+            <li>Non-Profit business coaching. </li>
+        </ul>
+    </div>
+</main>
+
+<footer>
+    <section>
+        <h6>Info</h6>
+        <div>
+            <img src="images/logo.webp" alt="Logo">
+        </div>
+        <ul>
+            <li>
+                <h2>Daniel Chamber of Commerce</h2>
+            </li>
+            <li>
+                <p>26 Buffalo Bones Road</p>
+            </li>
+            <li>
+                <p>Daniel Wyoming, Po. Box 100</p>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h6>Info</h6>
+        <p>ChamberOfDaniel@info.net
+        <p>+(213) 000-0000
+        <p><a
+                href="https://www.google.com/maps/place/Daniel,+WY/@42.8671241,-110.1039901,14z/data=!3m1!4b1!4m5!3m4!1s0x8757b8e32b15a923:0xf0715a8d8c860a12!8m2!3d42.8643854!4d-110.070994">Map
+                Location</a></p>
+    </section>
+    <hr>
+    <section>
+        <h6>Info</h6>
+        <p>&copy;<span id="currentyear"></span> Daniel Chamber
+            <a>|</a><br> Miles C. Noble
+            <a>|</a><br>WDD 230 Project
+            <a>|</a><br><span id="lastupdate"></span>
+        </p>
+    </section>
+</footer>
+
+</html>

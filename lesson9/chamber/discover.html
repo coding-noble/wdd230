@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discovering Daniel Wyoming</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/lastvisit.js" defer></script>
+    <script src="scripts/lazyload.js" defer></script>
+    <script src="scripts/datetime.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+</head>
+<header>
+    <div class="main-logo">
+        <a href="index.html">
+            <img src="images/logo.webp" alt="Logo">
+        </a>
+        <section>
+            <h1>Daniel Commerce</h1>
+            <h2>Chamber of Commerce</h2>
+        </section>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </div>
+    <div id="datebox"></div>
+    <nav>
+        <ul class="navigation">
+            <li><a id="menu"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="#">Content</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main id="discover">
+    <h1>Discover Cool Places in Daniel.</h1>
+    <section id="visitor-center" class="right-aligned">
+        <h3>Sublette County Visitor Center</h3>
+        <picture>
+            <img src="images/placeholder-image.webp" data-src="images/sublette-county-visitor.webp"
+                alt="Sublette County Visitor Center">
+        </picture>
+        <p>Come visit us at our visitor center and we can get you where you need to go. The visitor center is
+            located in the middle of town and is a great place to get information about the local area.</p>
+    </section>
+    <section id="daniel-junction" class="left-aligned">
+        <h3>Daniel Junction</h3>
+        <picture>
+            <img src="images/placeholder-image.webp" data-src="images/daniel-junction.webp" alt="Daniel Junction">
+        </picture>
+        <p>If you like spicy food then you have to stop at the Daniel Junction located just fifteen minutes out of
+            town, as it's home to two of the spicy burritos around made with fresh ghost peppers. Daniel Junction
+            also has great merchandise you may want to pick up as a souvenir.</p>
+    </section>
+    <section id="aquatic-center" class="right-aligned">
+        <h3>Pinedale Aquatic Center</h3>
+        <picture>
+            <img src="images/placeholder-image.webp" data-src="images/pinedale-aquatic-center.webp"
+                alt="Pinedale Aquatic Center">
+        </picture>
+        <p>The Aquatic Center is a great place to let loose and have fun. Not only does it have two large pools but
+            also rock climbing, pickleball, basketball, a running track, exercise equipment, and much more.</p>
+    </section>
+    <section id="wrangler-cafe" class="left-aligned">
+        <h3>The Wrangler Cafe</h3>
+        <picture>
+            <img src="images/placeholder-image.webp" data-src="images/wrangler-cafe.webp" alt="The Wrangler Cafe">
+        </picture>
+        <p>The Wrangler Cafe is a great local place to stop and get a bite to eat with a wonderful western-style
+            cuisine of sloppy joes, chilly & cornbread, sliders, sandwiches, and cold drinks to help cool you off on
+            the hot days.</p>
+    </section>
+    <section id="county-library" class="right-aligned">
+        <h3>Sublette County Library</h3>
+        <picture>
+            <img src="images/placeholder-image.webp" data-src="images/sublette-county-library.webp"
+                alt="Sublette County Library">
+        </picture>
+        <p>The local Library is a great place to read, study, or plan. There are lots of rooms available to host if
+            needs be and a large selection of books, movies, and articles on a wide variety of topics.
+        </p>
+    </section>
+    <h5> It's been <span id="last-visit"></span> day(s) since you've visited last.</h5>
+</main>
+
+<footer>
+    <section>
+        <h6>Info</h6>
+        <div>
+            <img src="images/logo.webp" alt="Logo">
+        </div>
+        <ul>
+            <li>
+                <h2>Daniel Chamber of Commerce</h2>
+            </li>
+            <li>
+                <p>26 Buffalo Bones Road</p>
+            </li>
+            <li>
+                <p>Daniel Wyoming, Po. Box 100</p>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h6>Info</h6>
+        <p>ChamberOfDaniel@info.net
+        <p>+(213) 000-0000
+        <p><a
+                href="https://www.google.com/maps/place/Daniel,+WY/@42.8671241,-110.1039901,14z/data=!3m1!4b1!4m5!3m4!1s0x8757b8e32b15a923:0xf0715a8d8c860a12!8m2!3d42.8643854!4d-110.070994">Map
+                Location</a></p>
+    </section>
+    <hr>
+    <section>
+        <h6>Info</h6>
+        <p>&copy;<span id="currentyear"></span> Daniel Chamber
+            <a>|</a><br> Miles C. Noble
+            <a>|</a><br>WDD 230 Project
+            <a>|</a><br><span id="lastupdate"></span>
+        </p>
+    </section>
+</footer>
+
+</html>
