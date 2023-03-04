@@ -359,3 +359,41 @@ textarea {
 #member-benefits h3 {
     margin: 3%;
 }
+
+#directory {
+    text-align: center;
+}
+
+#directory button {
+    margin: 3%;
+}
+
+.grid-mode {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 5px;
+}
+
+#directory section {
+    background-color: var(--accent2-color);
+    padding: 3%;
+}
+
+li {
+    list-style: none;
+}
+
+.list-mode section {
+    display: block;
+}
+
+.list-mode h2,
+.list-mode p {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+#directory .list-mode section:nth-child(even) {
+    background-color: var(--primary-color);
+}

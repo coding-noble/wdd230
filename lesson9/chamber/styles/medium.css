@@ -166,11 +166,34 @@
         box-shadow: 0 0 50px var(--accent1-color);
     }
 
-    #main-join-us, #main-thank-you {
+    #main-join-us,
+    #main-thank-you {
         display: block;
     }
 
     form {
         font-size: 1.5em;
+    }
+
+    #directory {
+        display: block;
+    }
+
+    #directory {
+        display: block;
+    }
+
+    .list-mode section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(8%, 1fr));
+    }
+
+    .list-mode section h2 {
+        font-size: 1em;
+    }
+
+    #directory .list-mode section p:nth-of-type(4),
+    #directory .list-mode section p:nth-of-type(5) {
+        display: none;
     }
 }

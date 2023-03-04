@@ -131,4 +131,9 @@
     #member-benefits h3 {
         text-align: left;
     }
+
+    #directory .list-mode section p:nth-of-type(4),
+    #directory .list-mode section p:nth-of-type(5) {
+        display: block;
+    }
 }

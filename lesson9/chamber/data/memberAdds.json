@@ -1,0 +1,169 @@
+{
+    "members": [
+        {
+            "name": "Vin Inc.",
+            "address": [
+                {
+                    "street": "22 Buffalo Bones Road",
+                    "city": "Cora",
+                    "state": "WY",
+                    "zip": "82925"
+                }
+            ],
+            "phoneNum": "1(800)231-1234",
+            "website": "VinIncorporated.com",
+            "image": "images/business_logos/vin_inc_logo.webp",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Kelsier Co.",
+            "address": [
+                {
+                    "street": "22 Buffalo Bones Road",
+                    "city": "Cora",
+                    "state": "WY",
+                    "zip": "82925"
+                }
+            ],
+            "phoneNum": "1(800)231-1234",
+            "website": "CelsierCo.com",
+            "image": "images/business_logos/kelsier_co_logo.webp",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "Dockson Shipping",
+            "address": [
+                {
+                    "street": "22 Buffalo Bones Road",
+                    "city": "Cora",
+                    "state": "WY",
+                    "zip": "82925"
+                }
+            ],
+            "phoneNum": "1(800)231-1234",
+            "website": "DocksonShipping.com",
+            "image": "images/business_logos/dockson_shipping_logo.webp",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Ham Industries",
+            "address": [
+                {
+                    "street": "22 Buffalo Bones Road",
+                    "city": "Cora",
+                    "state": "WY",
+                    "zip": "82925"
+                }
+            ],
+            "phoneNum": "1(800)231-1234",
+            "website": "HamIndustries.com",
+            "image": "images/business_logos/ham_industries_logo.webp",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "Breeze Farms",
+            "address": [
+                {
+                    "street": "22 Buffalo Bones Road",
+                    "city": "Cora",
+                    "state": "WY",
+                    "zip": "82925"
+                }
+            ],
+            "phoneNum": "1(800)231-1234",
+            "website": "BreezeFarms.com",
+            "image": "images/business_logos/breeze_farms_logo.webp",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Clubs Bar",
+            "address": [
+                {
+                    "street": "22 Buffalo Bones Road",
+                    "city": "Cora",
+                    "state": "WY",
+                    "zip": "82925"
+                }
+            ],
+            "phoneNum": "1(800)231-1234",
+            "website": "ClubsBar.com",
+            "image": "images/business_logos/clubs_bar_logo.webp",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "Spook Storage",
+            "address": [
+                {
+                    "street": "22 Buffalo Bones Road",
+                    "city": "Cora",
+                    "state": "WY",
+                    "zip": "82925"
+                }
+            ],
+            "phoneNum": "1(800)231-1234",
+            "website": "SpookStorage.com",
+            "image": "images/business_logos/spook_storage_logo.webp",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Marsh The Butcher",
+            "address": [
+                {
+                    "street": "22 Buffalo Bones Road",
+                    "city": "Cora",
+                    "state": "WY",
+                    "zip": "82925"
+                }
+            ],
+            "phoneNum": "1(800)231-1234",
+            "website": "MarshsButcheries.com",
+            "image": "images/business_logos/marsh_the_butcher_logo.webp",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Sazed's Bakery",
+            "address": [
+                {
+                    "street": "22 Buffalo Bones Road",
+                    "city": "Cora",
+                    "state": "WY",
+                    "zip": "82925"
+                }
+            ],
+            "phoneNum": "1(800)231-1234",
+            "website": "SazedsBakery.com",
+            "image": "images/business_logos/sazeds_bakery_logo.webp",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Elend & Straff Venture's Inn",
+            "address": [
+                {
+                    "street": "22 Buffalo Bones Road",
+                    "city": "Cora",
+                    "state": "WY",
+                    "zip": "82925"
+                }
+            ],
+            "phoneNum": "1(800)231-1234",
+            "website": "VenturesInn.com",
+            "image": "images/business_logos/elend_straff_venture_inn_logo.webp",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Ashweather Cett Antiques",
+            "address": [
+                {
+                    "street": "22 Buffalo Bones Road",
+                    "city": "Cora",
+                    "state": "WY",
+                    "zip": "82925"
+                }
+            ],
+            "phoneNum": "1(800)231-1234",
+            "website": "AshweatherCettAntiques.com",
+            "image": "images/business_logos/ashweather_cett_antiques_logo.webp",
+            "membershipLevel": "Gold"
+        }
+    ]
+}
