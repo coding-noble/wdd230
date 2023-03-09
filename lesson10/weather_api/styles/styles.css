@@ -1,0 +1,44 @@
+:root {
+    --tag-background: #444451;
+    --background: #1D1C3E;
+    --accent-color2: #F6F6E4;
+    --accent-color1: #6C6B26;
+}
+
+body {
+    background-color: var(--background);
+    text-align: center;
+}
+
+h1 {
+    background-color: var(--tag-background);
+    color: var(--accent-color2);
+    font-size: 3em;
+    padding: 30px;
+}
+
+p {
+    background-color: var(--accent-color2);
+    font-size: 2em;
+    padding: 1%;
+}
+
+h2 {
+    color: var(--accent-color2);
+    font-size: 1.75em;
+}
+
+figure {
+    background-color: var(--tag-background);
+    border: 4px dotted var(--accent-color2);
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+img {
+    width: 10%;
+}
+
+figcaption {
+    font-size: 1.5em;
+}
